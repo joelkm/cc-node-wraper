@@ -1,0 +1,6 @@
+{
+  "env": {
+      "ANTHROPIC_BASE_URL": "https://ollama.com/",
+      "ANTHROPIC_AUTH_TOKEN": "YOUR_ACTUAL_TOKEN_HERE"
+  }
+}

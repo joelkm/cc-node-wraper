@@ -1,0 +1,4 @@
+node_modules/
+dist/
+providers/*settings.json
+commands.json

@@ -1,0 +1,24 @@
+{
+  "kimi": {
+    "settings": "path/to/providers/ollama_settings.json",
+    "args": [
+      "--model", "kimi-k2.5:cloud",
+      "--settings", "path/to/providers/ollama_settings.json"
+    ]
+  },
+  "kimi-d": {
+    "settings": "path/to/providers/ollama_settings.json",
+    "args": [
+      "--model", "kimi-k2.5:cloud",
+      "--dangerously-skip-permissions",
+      "--settings", "path/to/providers/ollama_settings.json"
+    ]
+  },
+  "other-model": {
+    "settings": "path/to/providers/provider_settings.json",
+    "args": [
+      "--model", "other-model",
+      "--settings", "path/to/providers/provider_settings.json"
+    ]
+  }
+}

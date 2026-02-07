@@ -1,0 +1,23 @@
+{
+  "name": "cc-node-wrapper",
+  "version": "1.0.0",
+  "description": "Claude Code CLI wrapper with predefined settings",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "kimi": "dist/index.js",
+    "q3": "dist/index.js",
+    "kimi-d": "dist/index.js",
+    "q3-d": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.0"
+  }
+}
